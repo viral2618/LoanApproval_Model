@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
+</head>
+<body>
+        <div class="container">
+        <h2>Loan Prediction Form</h2>
+    <form action="/predict" method="post">
+        <input type="text" name="no_of_dependents" placeholder="No of Dependents"><br>
+        <input type="text" name="education" placeholder="Education (0/1)"><br>
+        <input type="text" name="self_employed" placeholder="Self Employed (0/1)"><br>
+        <input type="text" name="income_annum" placeholder="Annual Income"><br>
+        <input type="text" name="loan_amount" placeholder="Loan Amount"><br>
+        <input type="text" name="loan_term" placeholder="Loan Term"><br>
+        <input type="text" name="cibil_score" placeholder="CIBIL Score"><br>
+        <input type="text" name="residential_assets_value" placeholder="Residential Assets Value"><br>
+        <input type="text" name="commercial_assets_value" placeholder="Commercial Assets Value"><br>
+        <input type="text" name="luxury_assets_value" placeholder="Luxury Assets Value"><br>
+        <input type="text" name="bank_asset_value" placeholder="Bank Asset Value"><br>
+        <input type="text" name="loan_to_income" placeholder="Loan to Income Ratio"><br>
+        <input type="text" name="total_assets" placeholder="Total Assets"><br>
+        <input type="text" name="Loan_asset" placeholder="Loan Asset"><br>
+        <input type="text" name="assets_to_loan" placeholder="Assets to Loan Ratio"><br>
+        <input type="text" name="monthly_income" placeholder="Monthly Income"><br>
+        <input type="text" name="monthly_emi" placeholder="Monthly EMI"><br>
+        <input type="text" name="emi_to_income_ratio" placeholder="EMI to Income Ratio"><br>
+        <input type="text" name="income_per_dependent" placeholder="Income per Dependent"><br><br>
+        <button type="submit">Predict</button>
+    </form>
+</div>
+</body>
+</html>
