@@ -1,4 +1,3 @@
-/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 body {
@@ -36,7 +35,6 @@ h2 {
     font-size: 1.6rem;
 }
 
-/* Input fields */
 input[type="text"], input[type="number"], select {
     width: 100%;
     padding: 12px 14px;
@@ -56,7 +54,7 @@ select:focus {
     outline: none;
 }
 
-/* Submit button */
+
 button {
     width: 100%;
     padding: 14px;
@@ -77,13 +75,13 @@ button:hover {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Placeholder styling */
+
 ::placeholder {
     color: #aaa;
     opacity: 1;
 }
 
-/* Select dropdown styling */
+
 select {
     appearance: none;
     background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%236a11cb"><path d="M4 6l4 4 4-4"/></svg>');
@@ -92,11 +90,7 @@ select {
     background-size: 12px 12px;
 }
 
-/* ============================= */
-/* Responsive Design */
-/* ============================= */
 
-/* Tablets */
 @media (max-width: 768px) {
     .container {
         padding: 30px 35px;
@@ -112,7 +106,7 @@ select {
     }
 }
 
-/* Mobile Phones */
+
 @media (max-width: 480px) {
     body {
         padding: 10px;
